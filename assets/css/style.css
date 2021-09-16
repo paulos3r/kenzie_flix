@@ -1,3 +1,4 @@
+s
 /*Cascading Style Sheets(Folha de Estilos em Cascata, em português)
  - ESTRUTURA DO CSS
 
@@ -97,7 +98,9 @@ body {
 
 .cabecalho .cabecalho__menuConfiguracao li {}
 
-.cabecalho .cabecalho__menuConfiguracao a {}
+.cabecalho .cabecalho__menuConfiguracao a {
+    margin-left: 20px;
+}
 
 
 /*ESTILO CONTEÚDO PRINCIPAL */
@@ -268,7 +271,11 @@ main {}
     }
     .secaoDestaque .secaoDestaque__navegacaoDestaque a {
         font-size: 1rem;
-        padding: 10px 28px;
+        padding: 15px 30px;
+    }
+    .secaoDestaque .secaoDestaque__navegacaoDestaque a img {
+        margin-right: 20px;
+        width: 16px;
     }
     .secaoFilmes h2 {
         font-size: 1.3rem;
